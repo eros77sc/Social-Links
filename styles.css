@@ -1,0 +1,76 @@
+html, body {
+    background-color: #060D08;
+    font-family: Inter, sans-serif;
+    color: #FBEDC3;
+    font-size: clamp(0.875rem, 1.5vw, 1rem);
+    margin: 0;
+    height: 100%;
+    margin: 0;
+    display:flex;
+    flex-direction: column;
+}
+
+main {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+}
+
+.card {
+    background-color: #1D2A10;
+    width: 90%;
+    max-width: 25.5rem;
+    max-height: 40.75rem;
+    padding: 2rem;
+    border-radius: 1rem;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+img {
+    border-radius: 50%;
+    width: 100%;
+    max-width: 7rem;
+    max-height: 7rem;
+}
+
+.name {
+    font-weight: 600;
+    font-size: 1.75rem;
+    margin-bottom: 0;
+}
+
+.location {
+    font-weight: 700;
+    color: #CD8A39;
+    font-size: 0.875rem;
+}
+
+.statement {
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+a.menu:link, a.menu:visited {
+    background-color: #595D2B;
+    color: #FBEDC3;
+    font-weight: 700;
+    font-size: 1rem;
+    border-radius: 0.5rem;
+    padding: 0.8rem 0.75rem;
+    margin: 0.9rem;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+}
+
+a.menu:hover, a.menu:active {
+    background: #A24502;
+    color: #060D08;
+}
+
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: #CD8A39; }
