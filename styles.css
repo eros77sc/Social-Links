@@ -23,7 +23,7 @@ main {
     background-color: #1D2A10;
     width: 90%;
     max-width: 25.5rem;
-    max-height: 40.75rem;
+    max-height: 40rem;
     padding: 2rem;
     border-radius: 1rem;
     box-sizing: border-box;
@@ -33,13 +33,13 @@ main {
 img {
     border-radius: 50%;
     width: 100%;
-    max-width: 7rem;
-    max-height: 7rem;
+    max-width: 6rem;
+    max-height: 6rem;
 }
 
-.name {
+h1 {
     font-weight: 600;
-    font-size: 1.75rem;
+    font-size: 1.7rem;
     margin-bottom: 0;
 }
 
